@@ -101,6 +101,11 @@ Kombu Green: #31493D
     box-sizing: border-box;
 }
 
+.main__galeriaFlex {
+    display: flex;
+    flex-direction: column;
+}
+
 div iframe {
     height: 30vh;
 }
