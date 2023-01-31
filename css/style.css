@@ -27,7 +27,7 @@ Kombu Green: #31493D
     list-style: none;
     width: 100vw;
     justify-content: space-around;
-    color: #F5EA77;
+    color: #f1de0b;
 }
 
 .header__listaMenu a{
@@ -47,7 +47,7 @@ Kombu Green: #31493D
 }
 
 .banner-hero img{
-    width: 100vh;
+    width: 100vw;
 }
 
 .banner-hero h1{
@@ -58,25 +58,30 @@ Kombu Green: #31493D
     width: 100vw;
     margin: .5rem;
 }
-
 .main__article h2{
-    color: #000000 ;
+    color: #053B75 ;
     margin: .5rem;
     padding: .5rem;
-    border: 2px black solid;
+    border: 2px #31493D solid;
 }
 
 .main__article{
     display: grid;
     justify-items: center;
+    background-color: #000000;
 }
 
 .main__article p{
+    color: #053B75;
     font-style: italic;
     font-weight: 700;
-    border: .5px solid black;
+    border: .5px solid #31493D;
     margin: .5rem;
     padding: .5rem; 
+}
+
+div iframe{
+    height: 30vh;
 }
 
 .footer ul{
