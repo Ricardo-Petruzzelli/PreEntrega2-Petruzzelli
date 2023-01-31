@@ -1,0 +1,92 @@
+/* Paleta de Colores
+Rojo Carmine: #981313
+Black: #000000
+Yellow Crayola: #F5EA77
+Indigo Dye: #053B75
+Kombu Green: #31493D
+*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;700&display=swap');
+
+*{
+    margin: 0; padding: 0 ; font-family: 'Hind Siliguri', sans-serif;
+}
+
+.header{
+    background-color: #981313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo img{
+    width: 200px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    justify-content: space-around;
+    color: #F5EA77;
+}
+
+.header__listaMenu a{
+    padding: 1vw;
+    color: #F5EA77;
+    text-decoration: none;
+    border: solid 3px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.banner-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #981313;
+}
+
+.banner-hero img{
+    width: 100vh;
+}
+
+.banner-hero h1{
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    width: 100vw;
+    margin: .5rem;
+}
+
+.main__article h2{
+    color: #000000 ;
+    margin: .5rem;
+    padding: .5rem;
+    border: 2px black solid;
+}
+
+.main__article{
+    display: grid;
+    justify-items: center;
+}
+
+.main__article p{
+    font-style: italic;
+    font-weight: 700;
+    border: .5px solid black;
+    margin: .5rem;
+    padding: .5rem; 
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100vw;
+    background-color: #981313;
+    }
+.footer__listaMenu a{
+        color: #F5EA77;
+        text-decoration: none;
+    }
