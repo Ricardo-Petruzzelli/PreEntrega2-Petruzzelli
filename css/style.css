@@ -157,5 +157,34 @@ div h3 {
     }
     .footer ul {
         height: 10vh;
-        align-items: flex-end;
+        align-items: flex-end;}
 }
+
+@media (min-width: 1024px) {
+    .banner-hero h1 {
+        width: 90vw;
+        margin: 3rem;
+        font-size: 5vw;
+    }
+        div iframe {
+            height: 46rem;
+            width: 50rem;
+        }
+
+    div h3 {
+            font-size: 40px;
+        }
+        .main ul {
+            height: 150vh;
+            font-size: 3vw;
+        }
+        .main__article p {
+        font-size: 25px;
+        }
+        .header__listaMenu a {
+            font-size: 3vw;
+        }
+        .footer__listaMenu a {
+        font-size: 3vw;
+        }
+    }
