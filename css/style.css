@@ -106,7 +106,7 @@ Kombu Green: #31493D
     flex-direction: column;
 }
 
-.main__galeriaFlex iframe{
+.main__galeriaFlex iframe {
     width: 100vw;
     height: 100vh;
 }
@@ -134,8 +134,33 @@ div h3 {
 
 @media (min-width: 768px) {
     .banner-hero h1 {
-        text-decoration: underline;
+        width: 90vw;
+        margin: 3rem;
+        font-size: 5vw;
+    }
+
+    div h3 {
+        font-size: 30px;
+    }
+
+    div iframe {
+        height: 29rem;
+        width: 47rem;
+    }
+    .banner-hero img {
+        width: 90vw;
+    }
+    .main ul {
+        height: 106vh;
+        align-items: start;
+        align-content: space-between;
+    }
+    .footer ul {
+        display: flex;
         width: 100vw;
-        margin: 1.5rem;
+        background-color: #981313;
+        height: 10vh;
+        align-items: flex-end;
+        justify-content: space-around;
     }
 }
