@@ -166,24 +166,33 @@ div h3 {
         margin: 3rem;
         font-size: 5vw;
     }
-        div iframe {
-            height: 46rem;
-            width: 50rem;
+    div iframe {
+        margin-left: 6vw;
+        height: 46rem;
+        width: 50rem;
         }
 
     div h3 {
             font-size: 40px;
         }
+
         .main ul {
             height: 150vh;
             font-size: 3vw;
         }
+
         .main__article p {
         font-size: 25px;
         }
+
+        .banner-hero {
+            display: grid;
+        }
+
         .header__listaMenu a {
             font-size: 3vw;
         }
+
         .footer__listaMenu a {
         font-size: 3vw;
         }
