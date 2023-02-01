@@ -156,11 +156,6 @@ div h3 {
         align-content: space-between;
     }
     .footer ul {
-        display: flex;
-        width: 100vw;
-        background-color: #981313;
         height: 10vh;
         align-items: flex-end;
-        justify-content: space-around;
-    }
 }
